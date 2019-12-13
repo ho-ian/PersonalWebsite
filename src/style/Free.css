@@ -1,0 +1,16 @@
+.Free {
+	position: absolute;
+	display:none;
+	z-index: 0;
+	font-size: 14px;
+}
+
+.Free.in {
+	display:block;
+}
+
+img {
+	object-fit: cover;
+	width: 50%;
+   	height: 100%;
+}

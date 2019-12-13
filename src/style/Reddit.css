@@ -1,0 +1,17 @@
+.Reddit {
+	position: absolute;
+	display:none;
+	z-index: 0;
+	color: white;
+	font-size: 14px;
+}
+
+.Reddit.in {
+	display:block;
+}
+
+img {
+	object-fit: cover;
+	width: 50%;
+   	height: 100%;
+}

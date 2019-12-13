@@ -1,0 +1,193 @@
+#page1 {
+	height: 100vh;
+	background-color: #343148FF;
+}
+
+.info {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+}
+
+.links {
+	font-size: 20px;
+	color: #D7C49EFF;
+	text-decoration: none;
+}
+
+.links:visited {
+	color: #D7C49EFF;
+}
+
+.links:hover {
+	color: #f0d39a;
+}
+
+.links:active {
+	color: #f0d39a;
+}
+
+.intro {
+	color: #D7C49EFF;
+	font-size: 50px;
+	position: absolute;
+	display: block;
+	width: 800px;
+	height: 300px;
+	top: 45%;
+	left: 50%;
+	margin-left: -400px;
+}
+
+.intro_content {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.icon {
+	display: block;
+	position: absolute;
+	width: 100px;
+	height: 60px;
+	bottom: 0%;
+	left: 50%;
+	margin-left: -50px;
+	text-align: center;
+}
+
+.chevron {
+	border-style: solid;
+	border-width: 0.5em 0.5em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.9em;
+	left: 0.3em;
+	position: relative;
+	top: 0.3em;
+	transform: rotate(135deg);
+	vertical-align: top;
+	width: 0.9em;
+	color: #D7C49EFF;
+	-webkit-animation-name: flash;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: flash;
+	-moz-animation-duration: 1s;
+	-moz-animation-iteration-count: infinite;
+	-o-animation-name: flash;
+	-o-animation-duration: 1s;
+	-o-animation-iteration-count: infinite;
+	animation-name: flash;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.chevron:hover {
+	-webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+	animation: none;
+	color: #f0d39a;
+	cursor:pointer;
+}
+
+.chevron:active {
+	color: #f0d39a;
+}
+
+@-webkit-keyframes flash {
+	50% {color: #D7C49EFF;}
+	100% {color: #f0d39a;}
+}
+
+@-moz-keyframes flash {
+	50% {color: #D7C49EFF;}
+	100% {color: #f0d39a;}
+}
+
+@-o-keyframes flash {
+	50% {color: #D7C49EFF;}
+	100% {color: #f0d39a;}
+}
+
+@keyframes flash {
+	50% {color: #D7C49EFF;}
+	100% {color: #f0d39a;}
+}
+
+.icon2 {
+	display: block;
+	position: absolute;
+	width: 100px;
+	height: 60px;
+	top: 105%;
+	left: 50%;
+	margin-left: -50px;
+	text-align: center;
+}
+
+.chevron2 {
+	border-style: solid;
+	border-width: 0.5em 0.5em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.9em;
+	left: 0.3em;
+	position: relative;
+	top: 0.3em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 0.9em;
+	color: #343148FF;
+	-webkit-animation-name: flash2;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-name: flash2;
+	-moz-animation-duration: 1s;
+	-moz-animation-iteration-count: infinite;
+	-o-animation-name: flash2;
+	-o-animation-duration: 1s;
+	-o-animation-iteration-count: infinite;
+	animation-name: flash2;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.chevron2:hover {
+	-webkit-animation: none;
+    -moz-animation: none;
+    -o-animation: none;
+	animation: none;
+	color: #24213a;
+	cursor:pointer;
+}
+
+.chevron2:active {
+	color: #24213a;
+}
+
+@-webkit-keyframes flash2 {
+	50% {color: #343148FF;}
+	100% {color: #24213a;}
+}
+
+@-moz-keyframes flash2 {
+	50% {color: #343148FF;}
+	100% {color: #24213a;}
+}
+
+@-o-keyframes flash2 {
+	50% {color: #343148FF;}
+	100% {color: #24213a;}
+}
+
+@keyframes flash2 {
+	50% {color: #343148FF;}
+	100% {color: #24213a;}
+}
+
+#page2 {
+	height: 100vh;
+	background-color: #D7C49EFF;
+}

@@ -1,0 +1,16 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	height:100%;
+	margin:0;
+	font-family: monospace;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #343148FF;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}

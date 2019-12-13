@@ -1,0 +1,81 @@
+.Projects {
+	height: 100%;
+	width: 100%;
+}
+
+.project_list {
+	position: absolute;
+	height: 70%;
+	width: 80%;
+	top: 110vh;
+	left: 10%;
+}
+
+ul {
+	list-style-type:none;
+}
+
+li {
+	margin: 3em 0;
+	font-size: 18px;
+}
+
+a {
+	color: #343148FF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: hsla(40, 42%, 73%, 0.0);
+}
+
+a:visited {
+	color:#343148FF;
+}
+
+a:active {
+	color:#24213a;
+}
+
+.list_content{
+	position: absolute;
+	z-index: 1;
+}
+
+.Projects.task {
+	background: -webkit-linear-gradient(45deg,hsla(180,90%,27%,.75),#ffa3a9),-webkit-linear-gradient(45deg,hsla(180,90%,27%,.75),#ffa3a9);
+}
+
+.Projects.twitter {
+	background-color: #5da9dd;
+}
+
+.Projects.reddit {
+	background-color: black;
+}
+
+.Projects.free {
+	background-color: #996F19;
+}
+
+.Projects.player {
+	background: linear-gradient(to right, #006bb7 0%, #006bb7 35%, white 35%, white 65%, #ed174b 65%, #ed174b 100%);
+}
+
+.Projects.shot {
+	background-color: #FFF;
+}
+
+.tip {
+	width: 500px;
+	position: absolute;
+	text-align: center;
+	top: 194%;
+	left: 50%;
+	margin-left: -250px;
+	font-size: 14px;
+}
+
+.tip.reddit {
+	color: white;
+}

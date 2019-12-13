@@ -1,0 +1,16 @@
+.Twitter {
+	position: absolute;
+	display:none;
+	z-index: 0;
+	font-size: 14px;
+}
+
+.Twitter.in {
+	display:block;
+}
+
+img {
+	object-fit: cover;
+	width: 25%;
+   	height: 50%;
+}
